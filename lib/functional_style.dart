@@ -2,12 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 part 'button.dart';
-
+part 'color.dart';
 part 'edge_insets_extension.dart';
-
 part 'text.dart';
-
 part 'text_field.dart';
+part 'container.dart';
 
 abstract class FunctionalStyle<T> {
   static StyledText get text => StyledText();

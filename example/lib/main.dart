@@ -15,7 +15,6 @@ class App extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
       ),
       home: const HomePage(),
     );
@@ -30,7 +29,10 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: 'hello world'
           .text
-          .color(Colors.amber.value)
+          .color(Colors.amber)
+          .fontFamily('family')
+          .container
+      .margin
           .render,
     );
   }

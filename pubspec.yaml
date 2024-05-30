@@ -1,6 +1,6 @@
 name: functional_ui
-description: A new Flutter project.
-version: 0.0.1
+description: Functional styles for Flutter
+version: 0.0.1-alpha
 homepage: https://github.com/amiNorouzi/functional_ui.git
 
 environment:
@@ -14,7 +14,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.2
+  flutter_lints: ^3.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
